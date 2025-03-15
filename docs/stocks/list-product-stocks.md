@@ -16,7 +16,7 @@ This endpoint fetches all product stocks.
 | ----------------- | ------ | -------- | ------------------------------------------------- |
 | `organization_id` | string | Yes      | The ID of the organization the product belongs to |
 | `product_id`      | string | Yes      | The product ID                                    |
-| `search_value`    | string | No       | A search value to filter products name by         |
+| `search_value`    | string | No       | A search value to filter stock name by            |
 | `page`            | int    | No       | Page to fetch data from. Default 1                |
 | `size`            | int    | No       | Size of the response items. Default 50. Max 100   |
 
